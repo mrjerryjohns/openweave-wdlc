@@ -53,7 +53,6 @@ from nwv.validators import iface_mapping_validator
 from nwv.validators import map_validator
 from nwv.validators import min_version_validator
 from nwv.validators import name_inflection_validator
-from nwv.validators import name_suffix_validator
 from nwv.validators import naming_rules_validator
 from nwv.validators import no_new_java_outer_classname_validator
 from nwv.validators import nullable_validator
@@ -136,7 +135,6 @@ def check(schema_object, *_):
   validator_objects = [
       iface_mapping_validator,
       name_inflection_validator,
-      name_suffix_validator,
       enum_value_name_validator,
       read_write_validator,
       nullable_validator,

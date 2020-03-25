@@ -34,6 +34,8 @@ option objc_class_prefix = "SCM";
 enum Vendor {
   COMMON = 0x0000 [ (vendor) = {name: "Weave Common", packages: ["weave"]} ];
 
+  ZIGBEE = 0x0001 [ (vendor) = {name: "Zigbee Clusters", packages: ["zigbee"]} ];
+
   // Vendor allocations, reflecting the official "Nest Weave: Vendor Identifier Registry":
   NEST          = 0x235A [ (vendor) = {name: "Nest Labs, Inc.", packages: ["nest"]} ];
   GOOGLE        = 0xE100 [ (vendor) = {name: "Google", packages: ["google"]} ];
